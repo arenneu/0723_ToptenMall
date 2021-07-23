@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탑텐몰 로그인 화면</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="loginHead">
+            <img src="images/login_banner_pc.jpg" alt="상단이미지">
+        </div>
+
+        <div id="loginFrame" class="flexContainer">
+            <div id="loginArea">
+                <div class="memberchk" id="selected">
+                    <span>회원</span>
+                </div>
+                <div id="login">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" placeholder="아이디"></td>
+                                <td rowspan="2" id="loginBtn"><a href="#">로그인</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" placeholder="비밀번호"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="loginEtc" class="flexContainer">
+                        <div id="idSaveArea">
+                            <input type="checkbox" name="idSaveChk" id="idSaveChk"> 
+                            <span>아이디저장</span>
+                        </div>
+                        <div id="seacrhIdPw">
+                            <a href="#"><span>아이디찾기</span></a>
+                            <span>｜</span>
+                            <a href="#"><span>비밀번호 찾기</span></a>
+                        </div>
+                    </div>
+                    <div id="snsHold" >
+                        <hr>                           
+                        
+                        <div id="sns" class="flexContainer">
+                            <a href="#"><span>간편 로그인</span></a>
+                            <a href="#"><img src="images/spr_sns.png" alt="sns이미지"></a>
+                        </div>
+                </div>
+
+                </div>
+            
+        </div>
+            <div id="joinArea">
+                <div class="memberchk" id="notmem">
+                    <span>비회원</span>
+                </div>
+                <div id="joinInfo">
+                    <p>
+                        CREATE<br>
+                        <b>NEW ACCOUNT</b><br>
+                    </p>
+                    <span>
+                        탑텐몰 회원 가입하시고 다양한 혜택과 이벤트를 만나보세요.<br>
+                        간편 회원 가입의 경우 일부 혜택이 제한 될 수 있습니다.
+                    </span>
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

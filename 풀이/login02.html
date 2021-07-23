@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topten Mall Login</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <img src="images/login_banner_pc.jpg" alt="배너이미지" width="800">
+        </header>
+        <!-- header#header -->
+        <!-- 800*90 -->
+
+        <div id="multiTapArea" class="flexContainer">
+                <div class="selected">회원</div>
+                <div>비회원</div>
+
+        </div>
+        <!-- div#multiTapArea -->
+
+        <main id="main" class="flexContainer">
+            <div id="loginArea" class="mainContents">
+                <table id="loginTbl">
+                    <tbody>
+                        <tr>
+                            <td><input type="text" placeholder="아이디"></td>
+                            <td rowspan="2"><button type="button">로그인</button></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" placeholder="비밀번호"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="loginItem">
+                    <table id="loginItemTbl">
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>아이디 저장</td>
+                                <td>
+                                    <a href="#">아이디 찾기</a>
+                                    ｜
+                                    <a href="#">비밀번호 찾기</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- div#loginItem -->
+                <hr>
+            </div>
+            <!-- div#loginArea -->
+
+            <div id="verticalLine">
+            </div>
+
+            <div id="joinLink">
+                회원가입링크
+            </div>
+
+        </main>
+        <!-- div#loginArea -->
+
+    </div>
+    <!-- div#wrap -->
+</body>
+</html>
