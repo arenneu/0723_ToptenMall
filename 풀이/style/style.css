@@ -3,9 +3,9 @@
 
 /* guideLine */
 
-div#wrap {
+/* div#wrap {
   border: 1px solid #000;
-}
+} */
 
 /* div#multiTapArea {
   border: 1px solid #000;
@@ -65,6 +65,10 @@ div#multiTapArea > div {
   flex: 1;
 }
 
+#main #loginArea {
+  padding-right: 40px;
+}
+
 #main #loginArea #loginTbl input {
   padding: 7px;
   width: 260px;
@@ -119,5 +123,64 @@ div#multiTapArea > div {
   width: 341px;
   margin: 20px 0;
 }
+
+#main #easyLogin {
+  width: 340px;
+  /* border: 1px solid #000; */
+}
+
+#main #easyLogin td {
+  /* border: 1px solid #000; */
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+#main #easyLogin td:last-child {
+  text-align: right;
+}
+
+#main #easyLogin td:last-child span {
+  /* border: 2px solid #08f; */
+  width: 93px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#main #easyLogin td:last-child span img {
+  transform: translateX(-30px);
+}
+
+/* div#joinLink 시작 */
+
+div#joinLink {
+  padding-left: 54px;
+  padding-right: 0;
+}
+
+div#joinLink h2 {
+  font-size: 21px;
+}
+
+div#joinLink h2:first-child {
+  color: #888;
+}
+
+div#joinLink p {
+  color: #888;
+  font-size: 13px;
+  line-height: 23px;
+  margin: 20px 0;
+}
+
+div#joinLInkTxt {
+  margin-top: 40px;
+}
+
+div#joinLink a {
+  font-size: 15px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000;
+}
+/* div#joinLink 끝 */
 
 /* main#main 끝 */
